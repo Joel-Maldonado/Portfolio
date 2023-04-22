@@ -27,7 +27,7 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s ease; /* Add transition for hover effect */
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
