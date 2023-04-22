@@ -10,7 +10,6 @@ nav {
     background-color: black;
     color: white;
     padding: 10px;
-    animation: slideUp 1s ease-out;
 }
 
 nav ul {
