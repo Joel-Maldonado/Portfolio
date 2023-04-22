@@ -6,24 +6,11 @@ body {
     background: black;
 }
 
-/* Add a fade-in animation for the entire page */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-body {
-    animation: fadeIn 1s ease-in-out;
-}
-
 nav {
     background-color: black;
     color: white;
     padding: 10px;
+    animation: slideUp 1s ease-out;
 }
 
 nav ul {
@@ -55,7 +42,9 @@ header {
     align-items: center;
     text-align: center;
     background-color: black;
+    animation: slideUp 1s ease-out;
 }
+
 
 header img {
     width: 100%;
@@ -91,19 +80,6 @@ header a {
 }
 
 header a:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-/* Add hover effect to buttons */
-header a,
-section#resume a,
-section#contact button {
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-header a:hover,
-section#resume a:hover,
-section#contact button:hover {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
