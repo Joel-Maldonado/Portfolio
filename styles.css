@@ -2,6 +2,22 @@ html,
 body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    background: black;
+}
+
+/* Add a fade-in animation for the entire page */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn 1s ease-in-out;
 }
 
 nav {
@@ -24,6 +40,11 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for hover effect */
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 header {
@@ -69,6 +90,39 @@ header a {
     font-weight: bold;
 }
 
+header a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Add hover effect to buttons */
+header a,
+section#resume a,
+section#contact button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header a:hover,
+section#resume a:hover,
+section#contact button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Add slide-up animation for sections */
+@keyframes slideUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+section {
+    animation: slideUp 1s ease-out;
+}
+
 section#projects {
     background-color: black;
     padding: 50px;
@@ -94,6 +148,9 @@ section#projects p {
     color: white;
 }
 
+section#projects h3:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
 
 /* Style resume section */
 section#resume {
@@ -121,6 +178,10 @@ section#resume a {
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
+}
+
+section#resume a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Style contact section */
@@ -165,6 +226,10 @@ section#contact button {
     border: none;
     font-weight: bold;
     cursor: pointer;
+}
+
+section#contact button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Media queries */

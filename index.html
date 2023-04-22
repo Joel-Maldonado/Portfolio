@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="bg-dark">
     <!-- Navigation menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -56,7 +55,19 @@
                 <!-- Project 1 -->
                 <div class="col-lg-6 mb-4">
                     <div class="card bg-secondary text-white">
-                        <!-- <img src="project-1.jpg" alt='Project 1' class="card-img-top"> -->
+                        <!-- <img src="project-1.jpg" alt="Project 1" class="card-img-top"> -->
+                        <div class="card-body">
+                            <h3 class="card-title">Vision-Based Fight Detection</h3>
+                            <p class="card-text">A series of deep learning models built using TensorFlow for detecting violent scenes in surveillance camera footage. This project was completed as part of the Programming for Social Good internship at Saturday Academy, which aims to use technology to create positive social impact. The model takes in a video and rates how violent it thinks it is as a percentage, along with a bounding box over the presumed fight and the people in it.  By developing a model that can quickly detect violent scenes in surveillance footage, this project has the potential to improve public safety and help law enforcement respond to incidents more effectively. This project was presented as part of the ASE Saturday Academy Symposium 2022.</p>
+                            <a href="#" class="btn btn-light fw-bold">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card bg-secondary text-white">
+                        <!-- <img src="project-2.jpg" alt='Project 2' class="card-img-top"> -->
                         <div class="card-body">
                             <h3 class="card-title">NeuralNetPy</h3>
                             <p class="card-text"> NeuralNetPy is a neural network library built using Numpy and raw Python. Inspired by PyTorch, it allows you to create, train, and save models with ease, and includes common layers, activations, losses, and optimizers. The library also provides helpful utility functions for data preprocessing, training and testing the models, and saving and loading models. This project was designed for educational purposes, making it a great tool for those interested in deep learning to learn the fundamentals of building neural networks.</p>
@@ -65,17 +76,6 @@
                     </div>
                 </div>
                 
-                <!-- Project 2 -->
-                <div class="col-lg-6 mb-4">
-                    <div class="card bg-secondary text-white">
-                        <!-- <img src="project-2.jpg" alt="Project 2" class="card-img-top"> -->
-                        <div class="card-body">
-                            <h3 class="card-title">Project 2</h3>
-                            <p class="card-text">Description for project 2...</p>
-                            <a href="#" class="btn btn-light fw-bold">View Details</a>
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </div>
