@@ -1,0 +1,253 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+header p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+header a {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#projects {
+    background-color: black;
+    padding: 50px;
+    color: white;
+}
+
+section#projects h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section#projects li {
+    margin-bottom: 40px;
+}
+
+section#projects h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+section#projects p {
+    color: white;
+}
+
+/* Style testimonials section */
+section#testimonials {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+section#testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+section#testimonials ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section#testimonials li {
+    margin-bottom: 40px;
+}
+
+section#testimonials p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: white;
+}
+
+section#testimonials cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+/* Style resume section */
+section#resume {
+    background-color: black;
+    padding: 50px;
+    color: white;
+}
+
+section#resume h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section#resume p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: white;
+}
+
+section#resume a {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style contact section */
+section#contact {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+section#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#contact label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+section#contact input,
+section#contact textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+
+section#contact button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    header {
+        height: 400px;
+    }
+
+    header h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    section#projects li {
+        margin-bottom: 20px;
+    }
+
+    section#testimonials li {
+        margin-bottom: 20px;
+    }
+
+    section#testimonials p {
+        font-size: 16px;
+    }
+
+    section#testimonials cite {
+        font-size: 14px;
+    }
+
+    section#contact label,
+    section#contact input,
+    section#contact textarea,
+    section#contact button {
+        font-size: 14px;
+    }
+}

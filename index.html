@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Link to Bootstrap CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Link to custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Joel M</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="position-relative bg-dark text-white d-flex justify-content-center align-items-center text-center"
+        style="height: 600px;">
+        <img src="header-bg.jpg" alt="Header background image"
+            class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
+        <div class="container">
+            <h1 class="display-1 fw-bold mb-4">Joel M</h1>
+            <p class="lead mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laboriosam error
+                placeat impedit! Aut officia voluptates maiores numquam modi tempore temporibus possimus earum nulla,
+                quis quasi at quod, fugit ipsum.</p>
+            <a href="#" class="btn btn-lg btn-light fw-bold">View Projects</a>
+        </div>
+    </header>
+
+    <!-- Projects section -->
+    <section id="projects" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="display-4 fw-bold text-center mb-5">Projects</h2>
+            <div class="row gx-5">
+
+                <!-- Project 1 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card bg-secondary text-white">
+                        <img src="project-1.jpg" alt="Project 1" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">NeuralNetPy</h3>
+                            <p class="card-text"> A completely custom-made neural network library created in Python using numpy that allows you to create, train, and save models. The library is inspired by PyTorch but simplified for educational purposes..</p>
+                            <a href="https://github.com/JoelMaldonadoRuiz/NeuralNetPy" class="btn btn-light fw-bold" target="_blank">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card bg-secondary text-white">
+                        <img src="project-2.jpg" alt="Project 2" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 2</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                laboriosam error placeat impedit! Aut officia voluptates maiores numquam modi tempore
+                                temporibus possimus earum nulla.</p>
+                            <a href="#" class="btn btn-light fw-bold">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card bg-secondary text-white">
+                        <img src="project-3.jpg" alt="Project 3" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 3</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                laboriosam error placeat impedit! Aut officia voluptates maiores numquam modi tempore
+                                temporibus possimus earum nulla.</p>
+                            <a href="#" class="btn btn-light fw-bold">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section id="testimonials" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="display-4 fw-bold text-center mb-5">Testimonials</h2>
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-4">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body">
+                            <p class="card-text lead">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                laboriosam error placeat impedit! Aut officia voluptates maiores numquam modi tempore
+                                temporibus possimus earum nulla."</p>
+                            <cite class="d-block mb-4">John Doe</cite>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body">
+                            <p class="card-text lead">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                                laboriosam error placeat impedit! Aut officia voluptates maiores numquam modi tempore
+                                temporibus possimus earum nulla."</p>
+                            <cite class="d-block mb-4">Jane Doe</cite>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card bg-secondary text-white">
+                        <div class="card-body">
+                            <p class="card-text lead">"Lorem ipsum dolor sit amet consectetur adipisicing elit.Tempore
+                                laboriosam error placeat impedit! Aut officia voluptates maiores numquam modi tempore
+                                temporibus possimus earum nulla."</p>
+                            <cite class="d-block mb-4">Bob Smith</cite>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume section -->
+    <section id="resume" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="display-4 fw-bold text-center mb-5">Resume</h2>
+            <div class="row gx-5">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Education</h3>
+                    <div class="mb-5">
+                        <h4>Highschool</h4>
+                        <p class="lead mb-0">La Salle Catholic College Preparatory</p>
+                        <p class="mb-0">Graduating: 2024</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Experience</h3>
+                    <div>
+                        <h4>Deep Learning Intern</h4>
+                        <p class="lead mb-0">Computing For Social Good at Saturday Academy</p>
+                        <p class="mb-0">March 12, 2022 - April 20, 20222</p>
+                        <ul>
+                            <li>Developed a series of neural networks using Tensorflow to detect violent scenes for use in surveillance cameras.</li>
+                            <li>Worked with mentor: Christoff Tseucher</li>
+                            <li>Learned about deep learning and Tensorflow</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="display-4 fw-bold text-center mb-5">Contact Me</h2>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-light fw-bold">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
