@@ -94,42 +94,6 @@ section#projects p {
     color: white;
 }
 
-/* Style testimonials section */
-section#testimonials {
-    background-color: black;
-    color: white;
-    padding: 50px;
-}
-
-section#testimonials h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: white;
-}
-
-section#testimonials ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-section#testimonials li {
-    margin-bottom: 40px;
-}
-
-section#testimonials p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    color: white;
-}
-
-section#testimonials cite {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    color: white;
-}
 
 /* Style resume section */
 section#resume {
